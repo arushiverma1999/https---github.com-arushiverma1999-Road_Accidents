@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+
+    <div id="stimulation">
+        
+
+
+
+        <!--
+            STarting Para Center Align
+        -->
+            <div class="headliner_1">
+                <!--
+            Staring part-whole ratio
+        -->     
+   
+             
+                <p style="font-size: 48px; font-weight: bold;">
+                    More than just numbers
+                   
+                </p>
+                <p style="color:#b5baba; font-size: 24px;">
+                    Human cost of Indian Roads
+                    
+                <p>
+              
+                  
+                    </a>
+                    
+                
+                <br>
+                <br>
+                <p> This is the story of all <span style=" font-weight: bold; font-size:xx-large;">1,64,891 </span>  people that got killed due to road accidents in India 2022.
+                    <br>
+                    <span style="color: #b5baba;">Each symbol represents 10 person.</span>  
+                </p>
+                <button onclick="part_color_change_cause()" class="button button1">Causes</button>
+                <button onclick="part_color_change()" class="button button1">Sex Ratio</button>
+                <button onclick="part_color_change_victims()" class="button button1">Victims</button>
+                <button onclick="part_color_change_age_vehicle()" class="button button1">Age of vehicle</button>
+                
+                <button onclick="part_color_change_all()" class="button button1">All</button>
+
+                <p id= "sex_ratio_para"> Men have chances of dying in an accident more than 86% that too in the age range of 25-35. Out of the 10 people killed in an accident 9 happen to be men. 
+                    <br>
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#A12015;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Male
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(87,110,119);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                   Female
+
+                </p>
+
+                <p id="victim_para">
+                    We often believe that people driving cars are caught up in majority of the accidents but the people driving the 2 wheelers are most prone to accidents.
+                    Pedestrians are highly killed by road accidents that too whose age is greater than 45 years. These cover cover 60% of road killings.
+                    <br>
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#A12015;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    2 wheelers
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(166, 116, 65);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Pedestrians
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(207, 199, 142);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Cars
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(63, 113, 93);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Hand used vehicles
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#3c385d;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Trucks
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(87,110,119);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Auto rickshaw
+
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(87,110,119);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Bicycle
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#50394c;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Bus
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#333333;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    E-Rickshaw
+                    
+                   
+                </p>
+
+                <p id= "causes_para"> We often believe that accidents are caused due to our errors like drinking and driving or not being in the right lane, But the reality is more than 71% is done due to overspeeding.
+                    More than seven out of ten lives are put at risk by speeding drivers.
+                    <br>
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#A12015;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Overspeeding
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(207, 199, 142);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Drunken Driving
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(63, 113, 93);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Jumping red light
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(166, 116, 65);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Use of Electronics
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(87,110,119);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    Driving in wrong lane
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#3c385d;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                   Others
+                    
+                </p>
+
+                <p id="age_para">
+                        We tend to protect our products when they are new but thats opposite here. Vehicles whose age is less than 5 year show highest percentage of road killings
+                        <br>
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#A12015;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    less than 5yr
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(166, 116, 65);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    5-10 yr
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(87,110,119);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    10-15
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:#333333;stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    15-20
+                    <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="10" height="10"  style="fill:rgb(63, 113, 93);stroke-width:0.5;stroke:#ced1d1" /> 
+                    </svg>
+                    >20
+
+
+                    
+                </p>
+                
+               <br>
+               <br>
+               <br>
+
+
+                <canvas id="canvas2" width="1200" height="2000"></canvas>
+                <script>
+                  const canvas_var = document.getElementById('canvas2');
+                  const ctx_2 = canvas_var.getContext('2d');
+                  const rectangleWidth = 5;
+                  const rectangleHeight = 5;
+                  const spacingBetweenRectangles = 3;
+                   // Get the paragraph element
+                    var paragraph_sex = document.getElementById("sex_ratio_para");
+                   // Get the paragraph element
+                   var paragraph_causes = document.getElementById("causes_para");
+
+                   // Get the paragraph element
+                   var paragraph_victim = document.getElementById("victim_para");
+
+                     // Get the paragraph element
+                   var paragraph_age = document.getElementById("age_para");
+                   
+              
+                  function drawRectangle(xPos, yPos, color) {
+                    ctx_2.fillStyle = color;
+                    ctx_2.fillRect(xPos, yPos, rectangleWidth, rectangleHeight);
+                  }
+              
+                  // Draw all rectangles initially
+                  for (let i = 0; i < 16849; i++) {
+                    const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                    const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                    drawRectangle(xPos, yPos, '#A12015');
+                  }
+
+
+             /* 
+             
+             
+             
+             
+             
+             
+             
+             FUNCTION FOR SEX RATIO
+
+
+
+
+
+
+
+
+             */
+               function part_color_change() {
+
+                
+                
+                paragraph_victim.style.display = "none";
+                paragraph_age.style.display = "none";
+
+                
+                paragraph_causes.style.display = "none";
+                // Show the paragraph
+                paragraph_sex.style.display = "block";
+
+
+                // Clear the canvas
+                ctx_2.clearRect(0, 0, canvas_var.width, canvas_var.height);
+              
+                // Draw the first five rectangles in white
+                for (let i = 0; i < 2331; i++) {
+                  const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                  const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                  drawRectangle(xPos, yPos, '#939898');
+                }
+              
+                // Draw the rest of the rectangles in red
+                for (let i = 2331; i < 16849; i++) {
+                  const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                  const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                  drawRectangle(xPos, yPos, '#A12015');
+                }
+              }
+
+                  /*
+
+
+
+
+
+            
+               FUNCTION FOR CAUSE 
+               
+               
+               
+               
+            */
+            function part_color_change_cause()
+            {
+
+                 
+
+                    // Show the paragraph
+                  
+                   
+                    paragraph_age.style.display = "none";
+                    paragraph_victim.style.display = "none";
+                    paragraph_sex.style.display = "none";
+                    paragraph_causes.style.display = "block";
+
+                  // Clear the canvas
+                  ctx_2.clearRect(0, 0, canvas_var.width, canvas_var.height);
+              
+              // Draw the first five rectangles in white overspeed
+              for (let i = 0; i < 11990; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#A12015');
+              }
+            
+              // Draw the rest of the rectangles in red drunken driving
+              for (let i = 11990; i < 12410; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(207, 199, 142)');
+              }
+
+                  // Draw the rest of the rectangles in red jumping red light
+                  for (let i = 12410; i < 12556; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(63, 113, 93)');
+              }
+
+                        // Draw the rest of the rectangles in red use of mobile phone
+                        for (let i = 12556; i < 12896; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(166, 116, 65)');
+              }
+
+                        // Draw the rest of the rectangles in red use of driving wrrong lane
+                        for (let i = 12896; i < 13805; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(87,110,119)');
+              }
+
+                         // Draw the rest of the rectangles in red use of other
+                         for (let i = 13805; i < 16849; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#3c385d');
+              }
+
+
+
+            }
+
+                     /*
+
+
+
+
+
+            
+               FUNCTION FOR VICTIMS 
+               
+               
+               
+               
+            */
+            function part_color_change_victims()
+            {
+
+               
+                paragraph_age.style.display = "none";
+                paragraph_sex.style.display = "none";
+                paragraph_causes.style.display = "none";
+                // Show the paragraph
+                paragraph_victim.style.display = "block";
+
+
+                    // Clear the canvas
+            ctx_2.clearRect(0, 0, canvas_var.width, canvas_var.height);
+              
+              // Draw the first five rectangles in white 2 motor
+              for (let i = 0; i < 7490; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#A12015');
+              }
+            
+              // Draw the rest of the rectangles in red pedestrian
+              for (let i = 7490; i < 10773; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(166, 116, 65)');
+              }
+
+                  // Draw the rest of the rectangles in red cars
+                  for (let i = 10773; i < 12877; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(207, 199, 142)');
+              }
+
+                        // Draw the rest of the rectangles in red use of hand vehicles
+                        for (let i = 12877; i < 14011; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(63, 113, 93)');
+              }
+
+                        // Draw the rest of the rectangles in red use of trucks
+                        for (let i = 14011; i < 15069; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#3c385d');
+              }
+
+                         // Draw the rest of the rectangles in red auto rickshaw
+                         for (let i = 15069; i < 15728; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(87,110,119)');
+              }
+
+                                  // Draw the rest of the rectangles in red bicycle
+                                  for (let i = 15728; i < 16212; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, ' #50394c');
+              }
+
+                                   // Draw the rest of the rectangles in red bus
+                                   for (let i = 16212; i < 16612; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#676767');
+              }
+
+                                  // Draw the rest of the rectangles in red e-rickshaw
+                                  for (let i = 16612; i < 16849; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#333333');
+              }
+
+
+
+
+            }
+
+
+            function part_color_change_age_vehicle(){
+
+                paragraph_sex.style.display = "none";
+                paragraph_causes.style.display = "none";
+                // Show the paragraph
+                paragraph_victim.style.display = "none";
+                paragraph_age.style.display = "block";
+
+                        // Clear the canvas
+            ctx_2.clearRect(0, 0, canvas_var.width, canvas_var.height);
+              
+              // Draw the first five rectangles in white <5
+              for (let i = 0; i < 5076; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#A12015');
+              }
+            
+              // Draw the rest of the rectangles in red 5-10
+              for (let i = 5076; i < 9687; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(166, 116, 65)');
+              }
+
+                  // Draw the rest of the rectangles in 10-15
+                  for (let i = 9687; i < 11836; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(87,110,119)');
+              }
+
+                        // Draw the rest of the rectangles in red 15-20
+                        for (let i = 11836; i < 13930; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, '#333333');
+              }
+
+                        // Draw the rest of the rectangles in red >20
+                        for (let i = 13930; i < 16849; i++) {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos, 'rgb(63, 113, 93)');
+              }
+
+                    
+
+
+            }
+
+
+            /*
+
+
+
+
+
+
+               FUNCTION FOR ALL RATIO
+               
+               
+               
+               
+            */
+              function part_color_change_all() {
+                paragraph_sex.style.display = "none";
+                paragraph_causes.style.display = "none";
+                // Show the paragraph
+                paragraph_victim.style.display = "none";
+                paragraph_age.style.display = "none";
+
+
+                // Clear the canvas
+                ctx_2.clearRect(0, 0, canvas_var.width, canvas_var.height);
+              
+                // Draw the first five rectangles in red
+                for (let i = 0; i < 16849; i++) {
+                  const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                  const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                  drawRectangle(xPos, yPos, '#A12015');
+                }
+              
+          
+              }
+
+
+
+                </script>
+
+
+
+                <!--
+                <button onclick="part_color_change()"> part_color_change</button>
+                <canvas id="canvas2" width="700" height="400"></canvas>
+                <script>
+                const canvas_var = document.getElementById('canvas2');
+                const ctx_2 = canvas_var.getContext('2d');
+                const rectangleWidth = 5;
+                const rectangleHeight = 5;
+                const spacingBetweenRectangles = 3;
+                let color="green";
+                function drawRectangle(xPos, yPos,color) 
+                {
+                ctx_2.fillStyle = color;
+                ctx_2.fillRect(xPos, yPos, rectangleWidth, rectangleHeight);
+                }
+                //ctx_2.fillStyle = 'red';
+                
+                for (let i = 0; i < 16849; i++) 
+                {
+                const xPos = (i % 100) * (rectangleWidth + spacingBetweenRectangles);
+                const yPos = Math.floor(i / 100) * (rectangleHeight + spacingBetweenRectangles);
+                drawRectangle(xPos, yPos,color);
+                }    
+                function part_color_change()
+                {
+                   
+                }           
+                //ctx_2.fillRect(0, 0, canvas_var.width, canvas_var.height);
+                </script>
+                 -->
+                <br>
+                <br>
+
+                <!-- -->
+                    <!-- FIRST QUESTION STARTSSSS-->
+                    <!-- 
+           <div id="first_question">
+            <h2> How old are you?</h2>
+
+
+            <div class="dropdown">
+            <button onclick="ButtonFunction()" class="dropbtn">Age Range</button>
+            <div id="myDropdown" class="dropdown-content">
+                <div id="tamil">
+                    <a href="#tamil">Less than 18</a>
+                </div>
+               
+                <a href="#about">18-25</a>
+                <a href="#contact">25-35</a>
+                <a href="#home">35-45</a>
+                <a href="#about">45-60</a>
+                <a href="#contact">>60</a>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div id="rectangle">
+                <img src="SVG/age.png" id="rectangle_img">
+                    
+            </div>
+            </div>
+            </div>
+
+            -->
+             <!-- FIRST QUESTION ENDS-->
+            <!-- FIRST QUESTION ENDS-->
+            <!-- FIRST QUESTION ENDS-->
+
+
+            <!--KNOW MORE-->
+            <!-- 
+
+            <button type="button" onclick="showSecondQuestion()">Know More!</button>
+            -->
+            <!-- SECOND QUESTION STARTS-->
+            
+            <!-- 
+            <div id="second_question"  style="display: none;">
+                <h2> enter your state</h2>
+                <div class="dropdown">
+                    <button onclick="ButtonFunction()" class="dropbtn">State</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div id="tamil">
+                            <a href="#tamil">Tamil Nadu</a>
+                        </div>
+                       
+                        <a href="#about">Madhya Pradesh</a>
+                        <a href="#contact">Kerela</a>
+                        <a href="#home">Uttar Pradesh</a>
+                        <a href="#about">Karnataka</a>
+                        <a href="#contact">Maharashtra</a>
+                        <a href="#home">Rajastan</a>
+                        <a href="#about">Telangana</a>
+                        <a href="#contact">Andhra Pradesh</a>
+                        <a href="#home">Gujrat</a>
+                    </div>
+                    <div id="rectangle">
+                        <img src="SVG/age.png" id="rectangle_img">
+                            
+                    </div>
+                    </div>
+
+            </div>
+        -->
+        <!-- 
+            <div>
+                 
+                <p> Number of years they could have lived</p>
+                <div class="b1">
+                    age less than 18
+                </div>
+                <canvas id="myCanvas" width="500" height="500">
+                   
+                </canvas>
+              -->
+
+
+                <!-- FOR THE STIMULATION-->
+                <!-- 
+                <script>
+                    const canvas = document.getElementById('myCanvas');
+                    const ctx = canvas.getContext('2d');
+
+                    const radius = 10;
+                    const circleSpacing = radius * 2+10;
+                    const rectWidth = 460;
+                    const rectHeight = 460;
+                    const rectX = 20;
+                    const rectY = 20;
+
+                    const maxCirclesPerRow = Math.floor(rectWidth / circleSpacing);
+                    const maxRows = Math.floor(rectHeight / circleSpacing);
+                    let totalCircles = 0;
+
+                    ctx.fillStyle = '#141616';
+                    ctx.fillRect(rectX, rectY, rectWidth, rectHeight);
+
+                    function drawCircle() {
+                   
+                    const x = rectX + (totalCircles % maxCirclesPerRow) * circleSpacing + radius;
+                    const y = rectY + Math.floor(totalCircles / maxCirclesPerRow) * circleSpacing + radius;
+
+                    ctx.beginPath();
+                    ctx.arc(x, y, radius, 0, 2 * Math.PI);
+                    if(totalCircles<51)
+                    {
+                        // less than 18
+                        ctx.fillStyle = 'yellow';
+
+                    }
+                    else if(totalCircles > 50 && totalCircles < 98)
+                    {
+                        //18-25
+                    ctx.fillStyle = 'red';
+                    }
+                    else if(totalCircles > 97 && totalCircles < 135)
+                    {
+                        //25-35
+                    ctx.fillStyle = 'blue';
+                    }
+                    else if(totalCircles > 134 && totalCircles < 161)
+                    {
+                        //35-45
+                    ctx.fillStyle = 'purple';
+                    }
+                    else if(totalCircles > 160 && totalCircles < 176)
+                    {
+                        //45-60
+                    ctx.fillStyle = 'green';
+                    }
+                    else 
+                    {
+                        //>60
+                    ctx.fillStyle = 'white';
+                    }
+
+                    ctx.fill();
+
+                    totalCircles++;
+
+                    if (totalCircles < 180) {
+                    setTimeout(drawCircle, 100);
+                    }
+                    }
+
+                    drawCircle();
+
+                </script>
+
+                -->
+            </div>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+           
+
+
+        <!-- FIRST QUESTION STARTSSSS-->
+        <!--
+           <div id="first_question">
+            <h2> enter your state</h2>
+
+
+            <div class="dropdown">
+            <button onclick="ButtonFunction()" class="dropbtn">State</button>
+            <div id="myDropdown" class="dropdown-content">
+                <div id="tamil">
+                    <a href="#tamil">Tamil Nadu</a>
+                </div>
+               
+                <a href="#about">Madhya Pradesh</a>
+                <a href="#contact">Kerela</a>
+                <a href="#home">Uttar Pradesh</a>
+                <a href="#about">Karnataka</a>
+                <a href="#contact">Maharashtra</a>
+                <a href="#home">Rajastan</a>
+                <a href="#about">Telangana</a>
+                <a href="#contact">Andhra Pradesh</a>
+                <a href="#home">Gujrat</a>
+            </div>
+            <div id="rectangle">
+                <img src="mouse1.png" id="rectangle_img">
+                    
+            </div>
+            </div>
+            </div>
+            -->
+            <!-- FIRST QUESTION ENDS-->
+            <!-- FIRST QUESTION ENDS-->
+            <!-- FIRST QUESTION ENDS-->
+
+            <!--
+            <button type="button" onclick="showSecondQuestion()">Know More!</button>
+            -->
+          
+
+
+            <!-- SECOND QUESTION STARTS-->
+            <!--
+
+            <div id="second_question"  style="display: none;">
+                <h2> enter your state</h2>
+                <div class="dropdown">
+                    <button onclick="ButtonFunction()" class="dropbtn">State</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div id="tamil">
+                            <a href="#tamil">Tamil Nadu</a>
+                        </div>
+                       
+                        <a href="#about">Madhya Pradesh</a>
+                        <a href="#contact">Kerela</a>
+                        <a href="#home">Uttar Pradesh</a>
+                        <a href="#about">Karnataka</a>
+                        <a href="#contact">Maharashtra</a>
+                        <a href="#home">Rajastan</a>
+                        <a href="#about">Telangana</a>
+                        <a href="#contact">Andhra Pradesh</a>
+                        <a href="#home">Gujrat</a>
+                    </div>
+                    <div id="rectangle">
+                        <img src="mouse1.png" id="rectangle_img">
+                            
+                    </div>
+                    </div>
+
+            </div>
+            -->
+
+
+            <!-- SECOND QUESTION ENDS-->
+            <!-- SECOND QUESTION ENDS-->    
+            <!-- SECOND QUESTION ENDS-->
+    </div>
+
+
+
+    
+ 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="outer-wrapper" id="counter" onmouseover="f1()"  onscroll="myFunction()">
+      <div class="wrapper">
+        <div class="slide one">
+                <!-- First slider of 2010-->
+        </div>
+        <div class="slide two">
+            <!-- First slider of 2015-->
+    </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- onscroll="myFunction()"  -->
